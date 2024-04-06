@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12f59c8b-aaf9-4092-8765-5f7a8eb1be3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Problem_1.java" afterDir="false" />
+    <list default="true" id="49405c03-ec6c-40bb-98b3-fa8622398920" name="Changes" comment="solved prob 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Problem_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Problems.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,13 +24,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/.idea/vcs.xml" root0="SKIP_INSPECTION" />
-  </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
-  <component name="ProjectId" id="2eWs7PPZw7RmidyiaVM6ZA4alSY" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2eWvb1L1JH3OFbogBYCa2HJQ06D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,7 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Poblem_2.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.Problem_1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -66,27 +60,30 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="12f59c8b-aaf9-4092-8765-5f7a8eb1be3b" name="Changes" comment="" />
-      <created>1712031500334</created>
+      <changelist id="49405c03-ec6c-40bb-98b3-fa8622398920" name="Changes" comment="" />
+      <created>1712033215351</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1712031500334</updated>
-      <workItem from="1712031501529" duration="1358000" />
+      <updated>1712033215351</updated>
+      <workItem from="1712033216715" duration="1182000" />
+      <workItem from="1712372287460" duration="1122000" />
     </task>
+    <task id="LOCAL-00001" summary="solved prob 1">
+      <option name="closed" value="true" />
+      <created>1712046374707</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712046374707</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="solved prob 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved prob 1" />
   </component>
 </project>

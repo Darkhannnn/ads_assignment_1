@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49405c03-ec6c-40bb-98b3-fa8622398920" name="Changes" comment="solved prob 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="49405c03-ec6c-40bb-98b3-fa8622398920" name="Changes" comment="changed structure to switch case">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Problem_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Problems.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +45,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -66,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712033215351</updated>
       <workItem from="1712033216715" duration="1182000" />
-      <workItem from="1712372287460" duration="1122000" />
+      <workItem from="1712372287460" duration="2181000" />
     </task>
     <task id="LOCAL-00001" summary="solved prob 1">
       <option name="closed" value="true" />
@@ -76,7 +78,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712046374707</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed structure to switch case">
+      <option name="closed" value="true" />
+      <created>1712373805819</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712373805819</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +94,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="solved prob 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved prob 1" />
+    <MESSAGE value="changed structure to switch case" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed structure to switch case" />
   </component>
 </project>

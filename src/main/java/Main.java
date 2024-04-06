@@ -16,6 +16,15 @@ public class Main extends Problems {
                 }
                 System.out.println(minOfArr(arr, n));
                 break;
+            case 2:
+                n = sc.nextInt();
+                arr = new int[n];
+                for (int i = 0; i < n; i++) {
+                    arr[i] = sc.nextInt();
+                }
+                System.out.println(averageOfArr(arr, n));
+                break;
+
             default:
                 System.out.println("there is no such number");
         }

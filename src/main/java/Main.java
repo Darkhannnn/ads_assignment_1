@@ -28,6 +28,10 @@ public class Main extends Problems {
                 n = sc.nextInt();
                 System.out.println(primeNumCheck(n));
                 break;
+            case 4:
+                n = sc.nextInt();
+                System.out.println(factorial(n));
+                break;
             default:
                 System.out.println("there is no such number");
         }

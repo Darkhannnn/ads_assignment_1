@@ -35,4 +35,13 @@ public class Problems {
         }
         return true;
     }
+//    Problem 4.
+//    You are given a number “n”,
+//    write the program using recursion for finding “n!”
+    public static int factorial(int n){
+        if (n == 1){
+            return 1;
+        }
+        return factorial(n-1)*n;
+    }
 }

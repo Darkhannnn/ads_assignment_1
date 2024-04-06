@@ -54,4 +54,14 @@ public class Problems {
         }
         return fib(n - 1) + fib(n - 2);
     }
+//    Problem 6.
+//    You are given numbers “a” and “n”,
+//    write the function that returns “a^n”.
+    public static int power(int a, int n){
+        int res = 1;
+        for (int i = 0; i < n; i++) {
+            res *= a;
+        }
+        return res;
+    }
 }

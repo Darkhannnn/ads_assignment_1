@@ -6,6 +6,7 @@ public class Main extends Problems {
         System.out.println("Insert the problem number:");
         int y = sc.nextInt();
         int n;
+        int a;
         int[] arr;
         switch (y){
             case 1:
@@ -35,6 +36,11 @@ public class Main extends Problems {
             case 5:
                 n = sc.nextInt();
                 System.out.println(fib(n));
+                break;
+            case 6:
+                a = sc.nextInt();
+                n = sc.nextInt();
+                System.out.println(power(a, n));
                 break;
             default:
                 System.out.println("there is no such number");

@@ -32,6 +32,10 @@ public class Main extends Problems {
                 n = sc.nextInt();
                 System.out.println(factorial(n));
                 break;
+            case 5:
+                n = sc.nextInt();
+                System.out.println(fib(n));
+                break;
             default:
                 System.out.println("there is no such number");
         }

@@ -44,4 +44,14 @@ public class Problems {
         }
         return factorial(n-1)*n;
     }
+//    Problem 5.
+//    You are given a number “n”,
+//    write the function for finding n-th elements in Fibonacci sequence using recursion.
+//    (Fn = Fn-1+ Fn-2). F0= 0, F1 = 1.
+    public static int fib(int n){
+        if (n <= 1){
+            return n;
+        }
+        return fib(n - 1) + fib(n - 2);
+    }
 }

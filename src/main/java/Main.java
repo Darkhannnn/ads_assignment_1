@@ -24,7 +24,10 @@ public class Main extends Problems {
                 }
                 System.out.println(averageOfArr(arr, n));
                 break;
-
+            case 3:
+                n = sc.nextInt();
+                System.out.println(primeNumCheck(n));
+                break;
             default:
                 System.out.println("there is no such number");
         }

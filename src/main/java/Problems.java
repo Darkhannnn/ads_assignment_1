@@ -107,4 +107,14 @@ public class Problems {
         }
         return binomicalCoef(n-1, k-1) + binomicalCoef(n-1, k);
     }
+
+//    Problem 10.
+//    You are given “a” and “b”,
+//    write the function for finding GCD(a, b) using recursion. (Hint: Euclidean Algorithm)
+    public static int gsd(int a, int b){
+        if (b == 0){
+            return a;
+        }
+        return gsd(b, a % b);
+    }
 }

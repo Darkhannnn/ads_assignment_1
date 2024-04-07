@@ -65,6 +65,10 @@ public class Main extends Problems {
                 n = sc.nextInt();
                 k = sc.nextInt();
                 System.out.println(binomicalCoef(n, k));
+            case 10:
+                n = sc.nextInt();
+                k = sc.nextInt();
+                System.out.println(gsd(n, k));
             default:
                 System.out.println("there is no such number");
         }

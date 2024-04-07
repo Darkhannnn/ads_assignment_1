@@ -111,10 +111,10 @@ public class Problems {
 //    Problem 10.
 //    You are given “a” and “b”,
 //    write the function for finding GCD(a, b) using recursion. (Hint: Euclidean Algorithm)
-    public static int gsd(int a, int b){
+    public static int gcd(int a, int b){
         if (b == 0){
             return a;
         }
-        return gsd(b, a % b);
+        return gcd(b, a % b);
     }
 }

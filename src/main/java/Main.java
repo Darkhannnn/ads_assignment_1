@@ -61,14 +61,17 @@ public class Main extends Problems {
             case 8:
                 storageString = sc.nextLine();
                 System.out.println(isAllDigit(storageString) ? "Yes": "No");
+                break;
             case 9:
                 n = sc.nextInt();
                 k = sc.nextInt();
                 System.out.println(binomicalCoef(n, k));
+                break;
             case 10:
                 n = sc.nextInt();
                 k = sc.nextInt();
-                System.out.println(gsd(n, k));
+                System.out.println(gcd(n, k));
+                break;
             default:
                 System.out.println("there is no such number");
         }

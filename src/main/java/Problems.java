@@ -97,4 +97,14 @@ public class Problems {
         }
         return true;
     }
+
+//    Problem 9.
+//    You are given numbers“n” and “k”,
+//    write the program that k k k−1 k 0 n finds Cn(binomial coefficient) using formulaCn=Cn−1+Cn−1where Cn=Cn=1.
+    public static int binomicalCoef(int n, int k){
+        if (k == 0 || k == n){
+            return 1;
+        }
+        return binomicalCoef(n-1, k-1) + binomicalCoef(n-1, k);
+    }
 }

@@ -8,6 +8,7 @@ public class Main extends Problems {
         sc.nextLine();
         int n;
         int a;
+        int k;
         int[] arr;
 
         String storageString = "";
@@ -60,6 +61,10 @@ public class Main extends Problems {
             case 8:
                 storageString = sc.nextLine();
                 System.out.println(isAllDigit(storageString) ? "Yes": "No");
+            case 9:
+                n = sc.nextInt();
+                k = sc.nextInt();
+                System.out.println(binomicalCoef(n, k));
             default:
                 System.out.println("there is no such number");
         }

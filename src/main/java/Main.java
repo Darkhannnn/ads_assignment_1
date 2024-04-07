@@ -5,9 +5,13 @@ public class Main extends Problems {
         Scanner sc = new Scanner(System.in);
         System.out.println("Insert the problem number:");
         int y = sc.nextInt();
+        sc.nextLine();
         int n;
         int a;
         int[] arr;
+
+        String storageString = "";
+
         switch (y){
             case 1:
                 n = sc.nextInt();
@@ -42,8 +46,23 @@ public class Main extends Problems {
                 n = sc.nextInt();
                 System.out.println(power(a, n));
                 break;
+            case 7:
+                n = sc.nextInt();
+                while(n != 0){
+                    storageString += sc.next();
+                    if (n > 1){
+                        storageString += " ";
+                    }
+                    n--;
+                }
+                System.out.println(reverse(storageString));
+                break;
+            case 8:
+                storageString = sc.nextLine();
+                System.out.println(isAllDigit(storageString) ? "Yes": "No");
             default:
                 System.out.println("there is no such number");
         }
     }
 }
+

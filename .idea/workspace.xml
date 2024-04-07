@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49405c03-ec6c-40bb-98b3-fa8622398920" name="Changes" comment="added case 8&#10;(7 does not work correctly)">
+    <list default="true" id="49405c03-ec6c-40bb-98b3-fa8622398920" name="Changes" comment="gcd instead of gsd">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Problems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Problems.java" afterDir="false" />
     </list>
@@ -72,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712033215351</updated>
       <workItem from="1712033216715" duration="1182000" />
-      <workItem from="1712372287460" duration="12493000" />
+      <workItem from="1712372287460" duration="15247000" />
     </task>
     <task id="LOCAL-00001" summary="solved prob 1">
       <option name="closed" value="true" />
@@ -138,7 +139,31 @@
       <option name="project" value="LOCAL" />
       <updated>1712511378064</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added case 9&#10;(7 still does not work correctly)">
+      <option name="closed" value="true" />
+      <created>1712519380759</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712519380759</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added case 10&#10;(7 still does not work correctly)">
+      <option name="closed" value="true" />
+      <created>1712519596521</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712519596521</updated>
+    </task>
+    <task id="LOCAL-00011" summary="gcd instead of gsd">
+      <option name="closed" value="true" />
+      <created>1712519666792</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712519666792</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +178,9 @@
     <MESSAGE value="added case 5" />
     <MESSAGE value="added case 6" />
     <MESSAGE value="added case 8&#10;(7 does not work correctly)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added case 8&#10;(7 does not work correctly)" />
+    <MESSAGE value="added case 9&#10;(7 still does not work correctly)" />
+    <MESSAGE value="added case 10&#10;(7 still does not work correctly)" />
+    <MESSAGE value="gcd instead of gsd" />
+    <option name="LAST_COMMIT_MESSAGE" value="gcd instead of gsd" />
   </component>
 </project>

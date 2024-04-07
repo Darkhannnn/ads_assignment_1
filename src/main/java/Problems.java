@@ -11,6 +11,7 @@ public class Problems {
         }
         return m;
     }
+
 //    Problem 2.
 //    You are given a number “n” and an array of “n” elements,
 //    write the function that returns average of them.
@@ -21,6 +22,7 @@ public class Problems {
         }
         return (double) m / n;
     }
+
 //    Problem 3.
 //    You are given a number “n”,
 //    write the function for checking whether“n” is prime.
@@ -35,6 +37,7 @@ public class Problems {
         }
         return true;
     }
+
 //    Problem 4.
 //    You are given a number “n”,
 //    write the program using recursion for finding “n!”
@@ -44,6 +47,7 @@ public class Problems {
         }
         return factorial(n-1)*n;
     }
+
 //    Problem 5.
 //    You are given a number “n”,
 //    write the function for finding n-th elements in Fibonacci sequence using recursion.
@@ -54,6 +58,7 @@ public class Problems {
         }
         return fib(n - 1) + fib(n - 2);
     }
+
 //    Problem 6.
 //    You are given numbers “a” and “n”,
 //    write the function that returns “a^n”.
@@ -64,6 +69,7 @@ public class Problems {
         }
         return res;
     }
+
 //    Problem 7.
 //    You are given a number “n” and an array of “n” elements,
 //    write the program that returns given array in reverse order

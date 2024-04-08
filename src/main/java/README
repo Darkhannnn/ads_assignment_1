@@ -1,0 +1,35 @@
+
+# Java Problem Solving
+
+This project contains a Java program that solves various algorithmic problems. Each problem is implemented as a separate method within the Problems class. The Main class serves as the entry point for the program, allowing users to select a problem by providing its corresponding number.
+
+## Getting Started
+
+Dependencies
+ - Java Development Kit (JDK) installed on your pc
+ - A Java IDE (such as IntelliJ IDEA or Visual Studio Code) or a text editor for editing Java code
+Installing
+ - Download this repository to your pc.
+ - Open the project in your Java IDE or text editor.
+Executing program
+ - Open the Main class in your IDE or text editor.
+ - Run the main method.
+ - Follow the on-screen instructions to input the problem number and any required parameters.
+
+Problems Included
+1. Find the minimum of an array.
+2. Calculate the average of elements in an array.
+3. Check if a number is prime.
+4. Calculate factorial of a number.
+5. Find the nth Fibonacci number.
+6. Calculate power of a number.
+7. Reverse a string.
+8. Check if a string consists only of digits.
+9. Calculate binomial coefficient.
+10. Find the greatest common divisor (GCD) of two numbers.
+
+
+## Appendix
+
+Any additional information goes here
+

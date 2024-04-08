@@ -1,3 +1,6 @@
+
+// Problems class contains methods to solve problems
+// Each method corresponds to a specific problem and is documented accordingly
 public class Problems {
 //    Problem 1.
 //    You are given a number “n” and an array of “n” elements,

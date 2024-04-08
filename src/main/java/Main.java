@@ -1,19 +1,24 @@
 import java.util.Scanner;
 
+// Main class, the entry point of the program
 public class Main extends Problems {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Insert the problem number:");
-        int y = sc.nextInt();
+        int y = sc.nextInt(); // Get the problem number from user input
         sc.nextLine();
+
+        // Declare all variables
         int n;
         int a;
         int k;
         int[] arr;
         String storageString = "";
         String complexity = "";
-        long startTime = System.nanoTime();
 
+        long startTime = System.nanoTime(); // Record start time
+
+        // Switch case to select and execute the problem based on user input
         switch (y){
             case 1:
                 complexity = "O(n)";
@@ -85,7 +90,9 @@ public class Main extends Problems {
             default:
                 System.out.println("there is no such number");
         }
-        long endTime = System.nanoTime();
+        long endTime = System.nanoTime(); // Record end time
+
+        // Calculate and display runtime and complexity
         System.out.println("runtime in nanoseconds: "+ (endTime - startTime)/ 1000000 + " Complexity: " + complexity);
     }
 }
